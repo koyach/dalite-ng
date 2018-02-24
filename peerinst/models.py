@@ -418,6 +418,12 @@ class Institution(models.Model):
         verbose_name_plural = _('institutions')
 
 
+class BlinkAssignment(models.Model):
+    title=models.TextField()
+
+    class Meta:
+        verbose_name = _('blinkassignment')
+
 class BlinkQuestion(models.Model):
     question = models.ForeignKey(Question)
     current = models.BooleanField(default=True)
@@ -428,10 +434,13 @@ class BlinkQuestion(models.Model):
         max_length=8,
         primary_key=True,
     )
+    blinkassignment = models.ManyToManyField(BlinkAssignment,blank=True)
 
     def __unicode__(self):
         return self.question.text
 
+    class Meta:
+        order_with_respect_to = 'blinkassignment'
 
 class BlinkRound(models.Model):
     question = models.ForeignKey(BlinkQuestion)
@@ -456,6 +465,7 @@ class Teacher(models.Model):
     assignments = models.ManyToManyField(Assignment, blank=True)
     blinks = models.ManyToManyField(BlinkQuestion, blank=True)
     groups = models.ManyToManyField(StudentGroup, blank=True)
+    blinkassignments = models.ManyToManyField(BlinkAssignment,blank=True)
 
     def get_absolute_url(self):
         return reverse('teacher', kwargs={'pk': self.pk})
