@@ -51,6 +51,8 @@ from django.contrib.sessions.models import Session
 from django.db.models.expressions import Func
 from django.db.models import Count
 
+from django.utils.translation import activate
+activate('en')
 
 LOGGER = logging.getLogger(__name__)
 
