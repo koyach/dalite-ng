@@ -1,0 +1,969 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-05-07 20:06+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: dalite/urls.py:12 peerinst/templates/admin/peerinst/index.html:5
+msgid "Dalite NG administration"
+msgstr ""
+
+#: peerinst/admin.py:24
+msgid "There must be at least two answer choices."
+msgstr ""
+
+#: peerinst/admin.py:27
+msgid "At least one of the answers must be marked as correct."
+msgstr ""
+
+#: peerinst/admin.py:43
+msgid "Associated answer"
+msgstr ""
+
+#: peerinst/admin.py:46
+msgid ""
+"An example rationale that will be shown to students during the answer review."
+msgstr ""
+
+#: peerinst/admin.py:48
+msgid ""
+"The number of the associated answer; 1 = first answer, 2 = second answer etc."
+msgstr ""
+
+#: peerinst/admin.py:55
+msgid "example answer"
+msgstr ""
+
+#: peerinst/admin.py:56
+msgid "example answers"
+msgstr ""
+
+#: peerinst/admin.py:64
+msgid ""
+"You can add example answers more comfortably by using the \"Preview\" button "
+"in the top right corner.  The button appears after saving the question for "
+"the first time."
+msgstr ""
+
+#: peerinst/admin.py:78
+msgid "Question image or video"
+msgstr ""
+
+#: peerinst/admin.py:119
+msgid "Show selected answers to students"
+msgstr ""
+
+#: peerinst/admin_views.py:189
+msgid "Total rationales upvoted"
+msgstr ""
+
+#: peerinst/admin_views.py:190
+msgid "Total rationales chosen"
+msgstr ""
+
+#: peerinst/admin_views.py:191
+msgid "Total rationales chosen for right to wrong answer switches"
+msgstr ""
+
+#: peerinst/admin_views.py:192
+msgid "Total rationales chosen for wrong to right answer switches"
+msgstr ""
+
+#: peerinst/admin_views.py:198
+msgid "Count"
+msgstr ""
+
+#: peerinst/admin_views.py:199 peerinst/models.py:302
+msgid "Rationale"
+msgstr ""
+
+#: peerinst/admin_views.py:200
+#: peerinst/templates/admin/peerinst/attribution_stats.html:8
+msgid "Upvotes"
+msgstr ""
+
+#: peerinst/admin_views.py:201
+#: peerinst/templates/admin/peerinst/attribution_stats.html:10
+msgid "Downvotes"
+msgstr ""
+
+#: peerinst/admin_views.py:202
+msgid "Answers with this chosen rationale"
+msgstr ""
+
+#: peerinst/admin_views.py:219
+msgid "(Student stuck to own rationale)"
+msgstr ""
+
+#: peerinst/admin_views.py:230
+msgid "Upvoted rationales"
+msgstr ""
+
+#: peerinst/admin_views.py:235
+msgid "Top rationales chosen"
+msgstr ""
+
+#: peerinst/admin_views.py:240
+msgid "Top rationales chosen for right to wrong answer switches"
+msgstr ""
+
+#: peerinst/admin_views.py:245
+msgid "Top rationales chosen for wrong to right answer switches"
+msgstr ""
+
+#: peerinst/admin_views.py:300
+msgid "Total number of answers recorded:"
+msgstr ""
+
+#: peerinst/admin_views.py:301
+msgid "Total number of participating students:"
+msgstr ""
+
+#: peerinst/admin_views.py:302
+msgid "Correct answer choices – first attempt:"
+msgstr ""
+
+#: peerinst/admin_views.py:303 peerinst/admin_views.py:305
+#: peerinst/admin_views.py:307
+msgid "↳ Percentage of total answers:"
+msgstr ""
+
+#: peerinst/admin_views.py:304
+msgid "Correct answer choices – second attempt:"
+msgstr ""
+
+#: peerinst/admin_views.py:306
+msgid "Number of answer choice switches:"
+msgstr ""
+
+#: peerinst/admin_views.py:310
+#, python-brace-format
+msgid "Switches to answer {index}:"
+msgstr ""
+
+#: peerinst/admin_views.py:330
+msgid "No."
+msgstr ""
+
+#: peerinst/admin_views.py:330
+msgid "Question ID"
+msgstr ""
+
+#: peerinst/admin_views.py:330
+msgid "Total answers"
+msgstr ""
+
+#: peerinst/admin_views.py:330
+msgid "Total students"
+msgstr ""
+
+#: peerinst/admin_views.py:331
+msgid "First correct"
+msgstr ""
+
+#: peerinst/admin_views.py:331 peerinst/admin_views.py:332
+#: peerinst/templates/admin/peerinst/attribution_stats.html:9
+#: peerinst/templates/admin/peerinst/attribution_stats.html:11
+#: peerinst/templates/admin/peerinst/attribution_stats.html:13
+msgid "Percent"
+msgstr ""
+
+#: peerinst/admin_views.py:331
+msgid "Second correct"
+msgstr ""
+
+#: peerinst/admin_views.py:332
+msgid "Switches"
+msgstr ""
+
+#: peerinst/admin_views.py:335
+#, python-brace-format
+msgid "To {index}"
+msgstr ""
+
+#: peerinst/admin_views.py:336
+msgid "Show answers"
+msgstr ""
+
+#: peerinst/admin_views.py:354
+msgid "Expert answer"
+msgstr ""
+
+#: peerinst/admin_views.py:382
+msgid "Example answer saved."
+msgstr ""
+
+#: peerinst/admin_views.py:433
+#, python-brace-format
+msgid "List of {model_name} saved."
+msgstr ""
+
+#: peerinst/admin_views.py:476 peerinst/admin_views.py:479
+msgid "---all---"
+msgstr ""
+
+#: peerinst/apps.py:10
+msgid "Dalite Peer Instruction"
+msgstr ""
+
+#: peerinst/forms.py:22 peerinst/forms.py:116
+msgid "Choose one of these answers:"
+msgstr ""
+
+#: peerinst/forms.py:64
+msgid "Please select exactly one rationale."
+msgstr ""
+
+#: peerinst/forms.py:79
+msgid "Please vote up or down."
+msgstr ""
+
+#: peerinst/forms.py:151
+msgid "Website"
+msgstr ""
+
+#: peerinst/forms.py:154
+msgid ""
+"Please provide an institutional url listing yourself as a faculty member and "
+"showing your e-mail address."
+msgstr ""
+
+#: peerinst/models.py:21
+msgid "Hyphens may not be used in this field."
+msgstr ""
+
+#: peerinst/models.py:31
+msgid "Category Name"
+msgstr ""
+
+#: peerinst/models.py:33
+msgid "Name of a category questions can be sorted into."
+msgstr ""
+
+#: peerinst/models.py:42
+msgid "category"
+msgstr ""
+
+#: peerinst/models.py:43
+msgid "categories"
+msgstr ""
+
+#: peerinst/models.py:48
+msgid "Discipline Name"
+msgstr ""
+
+#: peerinst/models.py:50
+msgid "Name of a discipline."
+msgstr ""
+
+#: peerinst/models.py:59
+msgid "discipline"
+msgstr ""
+
+#: peerinst/models.py:60
+msgid "disciplines"
+msgstr ""
+
+#: peerinst/models.py:74
+msgid ""
+"Use this ID to refer to the question in the LMS. Note: The question will "
+"have to have been saved at least once before an ID is available."
+msgstr ""
+
+#: peerinst/models.py:79
+msgid "Question title"
+msgstr ""
+
+#: peerinst/models.py:81
+msgid ""
+"A title for the question. Used for lookup when creating assignments, but not "
+"presented to the student."
+msgstr ""
+
+#: peerinst/models.py:86
+msgid "Question text"
+msgstr ""
+
+#: peerinst/models.py:87
+msgid ""
+"Enter the question text.  You can use HTML tags for formatting.  You can use "
+"the \"Preview\" button in the top right corner to see what the question will "
+"look like for students.  The button appears after saving the question for "
+"the first time."
+msgstr ""
+
+#: peerinst/models.py:93
+msgid "Question image"
+msgstr ""
+
+#: peerinst/models.py:94
+msgid "An image to include after the question text."
+msgstr ""
+
+#: peerinst/models.py:97
+msgid "Image Alt Text"
+msgstr ""
+
+#: peerinst/models.py:98
+msgid ""
+"Alternative text for accessibility. For instance, the student may be using a "
+"screen reader."
+msgstr ""
+
+#: peerinst/models.py:104
+msgid "Question video URL"
+msgstr ""
+
+#: peerinst/models.py:105
+msgid ""
+"A video to include after the question text. All videos should include "
+"transcripts."
+msgstr ""
+
+#: peerinst/models.py:115
+msgid "Answer style"
+msgstr ""
+
+#: peerinst/models.py:117
+msgid ""
+"Whether the answers are annotated with letters (A, B, C…) or numbers (1, 2, "
+"3…)."
+msgstr ""
+
+#: peerinst/models.py:125
+msgid "Add fake attributions"
+msgstr ""
+
+#: peerinst/models.py:126
+msgid ""
+"Add random fake attributions consisting of username and country to "
+"rationales.  You can configure the lists of fake values and countries from "
+"the start page of the admin interface."
+msgstr ""
+
+#: peerinst/models.py:132
+msgid "Sequential rationale review"
+msgstr ""
+
+#: peerinst/models.py:133
+msgid ""
+"Show rationales sequentially and allow to vote on them before the final "
+"review."
+msgstr ""
+
+#: peerinst/models.py:137
+msgid "Rationale selection algorithm"
+msgstr ""
+
+#: peerinst/models.py:139
+msgid ""
+"The algorithm to use for choosing the rationales presented to students "
+"during question review.  This option is ignored if you selected sequential "
+"review."
+msgstr ""
+
+#: peerinst/models.py:144
+msgid "Standard"
+msgstr ""
+
+#: peerinst/models.py:145
+msgid "Advanced"
+msgstr ""
+
+#: peerinst/models.py:148
+msgid "Grading scheme"
+msgstr ""
+
+#: peerinst/models.py:150
+msgid ""
+"Grading scheme to use. The \"Standard\" scheme awards 1 point if the "
+"student's final answer is correct, and 0 points otherwise. The \"Advanced\" "
+"scheme awards 0.5 points if the student's initial guess is correct, and 0.5 "
+"points if they subsequently stick with or change to the correct answer."
+msgstr ""
+
+#: peerinst/models.py:168
+msgid "You can only specify one of the image and video URL fields."
+msgstr ""
+
+#: peerinst/models.py:171
+msgid ""
+"You must provide alternative text for accessibility if providing an image."
+msgstr ""
+
+#: peerinst/models.py:256
+msgid "question"
+msgstr ""
+
+#: peerinst/models.py:257
+msgid "questions"
+msgstr ""
+
+#: peerinst/models.py:262
+msgid "Text"
+msgstr ""
+
+#: peerinst/models.py:263
+msgid "Correct?"
+msgstr ""
+
+#: peerinst/models.py:270
+msgid "answer choice"
+msgstr ""
+
+#: peerinst/models.py:271
+msgid "answer choices"
+msgstr ""
+
+#: peerinst/models.py:276
+msgid "identifier"
+msgstr ""
+
+#: peerinst/models.py:277
+msgid "A unique identifier for this assignment used for inclusion in a course."
+msgstr ""
+
+#: peerinst/models.py:279 peerinst/models.py:492
+msgid "Title"
+msgstr ""
+
+#: peerinst/models.py:280 peerinst/templates/admin/peerinst/index.html:37
+msgid "Questions"
+msgstr ""
+
+#: peerinst/models.py:294
+msgid "assignment"
+msgstr ""
+
+#: peerinst/models.py:295
+msgid "assignments"
+msgstr ""
+
+#: peerinst/models.py:301 peerinst/models.py:319
+msgid "First answer choice"
+msgstr ""
+
+#: peerinst/models.py:304 peerinst/models.py:324
+msgid "Second answer choice"
+msgstr ""
+
+#: peerinst/models.py:308
+msgid "Show to others?"
+msgstr ""
+
+#: peerinst/models.py:310
+msgid "Expert rationale?"
+msgstr ""
+
+#: peerinst/models.py:311
+msgid "Whether this answer is a pre-seeded expert rationale."
+msgstr ""
+
+#: peerinst/models.py:328
+msgid "{} for question {}"
+msgstr ""
+
+#: peerinst/models.py:356
+msgid "fake username"
+msgstr ""
+
+#: peerinst/models.py:357
+msgid "fake usernames"
+msgstr ""
+
+#: peerinst/models.py:363
+msgid "fake country"
+msgstr ""
+
+#: peerinst/models.py:364
+msgid "fake countries"
+msgstr ""
+
+#: peerinst/models.py:382
+msgid "Vote type"
+msgstr ""
+
+#: peerinst/models.py:397
+msgid "group"
+msgstr ""
+
+#: peerinst/models.py:398
+msgid "groups"
+msgstr ""
+
+#: peerinst/models.py:415
+msgid "student"
+msgstr ""
+
+#: peerinst/models.py:416
+msgid "students"
+msgstr ""
+
+#: peerinst/models.py:420
+msgid "Name of school."
+msgstr ""
+
+#: peerinst/models.py:426
+msgid "institution"
+msgstr ""
+
+#: peerinst/models.py:427
+msgid "institutions"
+msgstr ""
+
+#: peerinst/models.py:431
+msgid ""
+"Teacher-only email domain, if available.  Email addresses with these domains "
+"will be treated as verified."
+msgstr ""
+
+#: peerinst/models.py:438
+msgid "verified email domain name"
+msgstr ""
+
+#: peerinst/models.py:458
+msgid "teacher"
+msgstr ""
+
+#: peerinst/models.py:459
+msgid "teachers"
+msgstr ""
+
+#: peerinst/models.py:467
+msgid "Time limit"
+msgstr ""
+
+#: peerinst/models.py:486
+msgid "Answer choice"
+msgstr ""
+
+#: peerinst/models.py:507
+msgid "blink assignment"
+msgstr ""
+
+#: peerinst/models.py:508
+msgid "blink assignments"
+msgstr ""
+
+#: peerinst/rationale_choice.py:61
+msgid "Can't proceed since the course staff did not provide example answers."
+msgstr ""
+
+#: peerinst/rationale_choice.py:82
+msgid "I stick with my own rationale."
+msgstr ""
+
+#: peerinst/rationale_choice.py:96
+msgid "Simple random rationale selection"
+msgstr ""
+
+#: peerinst/rationale_choice.py:98 peerinst/rationale_choice.py:115
+msgid ""
+"The two answer choices presented will include the answer the user chose.  If "
+"the user's\n"
+"    answer wasn't correct, the second choice will be a correct answer.  If "
+"the user's answer was\n"
+"    correct, the second choice presented will be weighted by the number of "
+"available rationales,\n"
+"    i.e. an answer that has only a few rationales available will have a low "
+"chance of being shown\n"
+"    to the user.  Up to four rationales are presented to the user for each "
+"choice, if available.\n"
+"    In addition, the user can choose to stick with their own rationale.\n"
+"    "
+msgstr ""
+
+#: peerinst/rationale_choice.py:113
+msgid "Simple random rationale selection for sequential review"
+msgstr ""
+
+#: peerinst/rationale_choice.py:156
+msgid "Prefer expert and highly votes rationales"
+msgstr ""
+
+#: peerinst/rationale_choice.py:158
+msgid ""
+"The two answer choices presented will include the answer the user chose.  If "
+"the user's\n"
+"    answer wasn't correct, the second choice will be a correct answer.  If "
+"the user's answer was\n"
+"    correct, the second choice presented will be weighted by the number of "
+"available rationales,\n"
+"    i.e. an answer that has only a few rationales available will have a low "
+"chance of being shown\n"
+"    to the user.  Up to four rationales are presented to the user for each "
+"choice, if available.\n"
+"    In addition, the user can choose to stick with their own rationale.\n"
+"\n"
+"    The four rationales will include at least one \"expert\" rationale, if "
+"available, and at least\n"
+"    one rationale with more than half the maximum number of votes, if "
+"available.\n"
+"    "
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment/change_form.html:7
+msgid "View assignment results"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:4
+msgid "Assignment results"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:12
+#: peerinst/templates/admin/peerinst/question_rationales.html:12
+msgid "Home"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:13
+msgid "results"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:18
+msgid "Results for the assignment"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:49
+msgid "this assignment"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:50
+msgid "all"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/assignment_results.html:51
+msgid "rationales"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_analysis.html:11
+#: peerinst/templates/admin/peerinst/index.html:64
+msgid "Attribution bias analysis"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_analysis.html:19
+msgid "Run analysis"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_analysis.html:26
+msgid "Statistics by username"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_analysis.html:32
+msgid "Statistics by country"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_stats.html:6
+msgid "Name"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_stats.html:7
+msgid "Total attributions"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/attribution_stats.html:12
+msgid "Final choices"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:10
+msgid "Student progress by assignment"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:22
+msgid "No assignments defined."
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:29
+msgid "Management"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:32
+msgid "Assignments"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:42
+msgid "Question categories"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:48
+msgid "Users"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:54
+msgid "Fake usernames"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/index.html:59
+msgid "Fake countries"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question/change_form.html:6
+msgid "Preview"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question_preview.html:6
+msgid ""
+"\n"
+"  This is a preview of how the question looks in the student interface.  You "
+"can add example\n"
+"  rationales here that will be shown as choices to students.  You should at "
+"least provide a few\n"
+"  example rationales for the correct choices.  It's best if you provide a "
+"few rationales for each\n"
+"  choice, even the incorrect ones.\n"
+"  "
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question_preview.html:15
+msgid "Submit example answer"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question_rationales.html:4
+#, python-format
+msgid "Top %(perpage)s Rationales"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question_rationales.html:15
+#, python-format
+msgid "Top %(perpage)s rationales "
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question_rationales.html:20
+#, python-format
+msgid "Top %(perpage)s rationales for answers to %(question)s"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/question_rationales.html:53
+msgid "answers"
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/string_list.html:10
+msgid "List of "
+msgstr ""
+
+#: peerinst/templates/admin/peerinst/string_list.html:19
+#: peerinst/templates/peerinst/blink.html:20
+#: peerinst/templates/peerinst/question_review.html:34
+msgid "Submit"
+msgstr ""
+
+#: peerinst/templates/peerinst/assignment_list.html:8
+msgid "Browse Assignments"
+msgstr ""
+
+#: peerinst/templates/peerinst/assignment_list.html:38
+msgid "No assignments available."
+msgstr ""
+
+#: peerinst/templates/peerinst/cookie_help.html:7
+#, python-format
+msgid ""
+"\n"
+"  This component cannot be shown because your browser does not seem to "
+"accept third-party cookies.\n"
+"  You should configure your browser to allow all cookies for the site "
+"%(host)s and reload this\n"
+"  page.\n"
+"  "
+msgstr ""
+
+#: peerinst/templates/peerinst/cookie_help.html:14
+#, python-format
+msgid ""
+"\n"
+"  In Internet Explorer, this can be done by going to Tools → Internet "
+"Options → Privacy → Sites,\n"
+"  entering %(host)s in the address field and clicking \"Allow\".\n"
+"  "
+msgstr ""
+
+#: peerinst/templates/peerinst/heartbeat.html:4
+msgid "Heartbeat for dalite-ng"
+msgstr ""
+
+#: peerinst/templates/peerinst/question_list.html:13
+msgid "Question List"
+msgstr ""
+
+#: peerinst/templates/peerinst/question_list.html:305
+msgid "No questions available."
+msgstr ""
+
+#: peerinst/templates/peerinst/question_review.html:9
+msgid ""
+"\n"
+"  Consider the problem again, and select the most convincing rationale.\n"
+"  "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_review.html:13
+msgid ""
+"\n"
+"  Consider the problem again, noting the rationales below that have been "
+"provided by other\n"
+"  students.  They may, or may not, cause you to reconsider your answer.  "
+"Read them and select your\n"
+"  final answer.\n"
+"  "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_review_base.html:26
+#, python-format
+msgid ""
+"\n"
+"    You answered <strong>%(first_choice_label)s</strong> and gave this "
+"rationale:\n"
+"    "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_sequential_review.html:8
+msgid ""
+"\n"
+"  Below is an answer provided by another student.  Please indicate whether "
+"you think this answer is\n"
+"  correct using the vote buttons below.  You will be able to select your "
+"preferred rationale in the\n"
+"  final review.\n"
+"  "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_sequential_review.html:20
+msgid "Answer "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_start.html:47
+msgid "Next"
+msgstr ""
+
+#: peerinst/templates/peerinst/question_summary.html:9
+msgid ""
+"\n"
+"        You stuck with your answer choice and rationale.\n"
+"      "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_summary.html:13
+msgid ""
+"\n"
+"        You stuck with your answer choice and selected this rationale:\n"
+"      "
+msgstr ""
+
+#: peerinst/templates/peerinst/question_summary.html:19
+#, python-format
+msgid ""
+"\n"
+"      You then changed your answer to <strong>%(second_choice_label)s</"
+"strong>\n"
+"      and selected this rationale:\n"
+"    "
+msgstr ""
+
+#: peerinst/templates/peerinst/teacher_detail.html:18
+msgid "Email: "
+msgstr ""
+
+#: peerinst/templates/peerinst/teacher_detail.html:21
+msgid "Member since: "
+msgstr ""
+
+#: peerinst/templates/peerinst/teacher_detail.html:33
+msgid "Discipline"
+msgstr ""
+
+#: peerinst/templates/peerinst/teacher_detail.html:45
+msgid "Institution"
+msgstr ""
+
+#: peerinst/templates/registration/password_change_form.html:17
+msgid ""
+"Please enter your old password, for security's sake, and then your new "
+"password twice so we can verify you typed it correctly."
+msgstr ""
+
+#: peerinst/templates/registration/password_change_form.html:40
+msgid "Change password"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_complete.html:15
+msgid "Your password has been set.  You may go ahead and log in now."
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_complete.html:18
+msgid "Log in"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_confirm.html:17
+msgid ""
+"Please enter your new password twice so we can verify you typed it correctly."
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_confirm.html:40
+msgid "Set password"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_confirm.html:46
+msgid ""
+"The password reset link was invalid, possibly because it has already been "
+"used.  Please request a new password reset."
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_email.html:5
+#, python-format
+msgid ""
+"\n"
+"\n"
+"You're receiving this email because you requested a password reset for your "
+"user account at %(site_name)s.\n"
+"\n"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_email.html:11
+msgid "Please go to the following page and choose a new password:"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_email.html:17
+msgid "Your username, in case you've forgotten:"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_email.html:19
+msgid "Thanks for using our site!"
+msgstr ""
+
+#: peerinst/templates/registration/password_reset_email.html:21
+#, python-format
+msgid "The %(site_name)s team"
+msgstr ""
+
+#: peerinst/views.py:432
+msgid "There was a problem with your submission"
+msgstr ""
+
+#: peerinst/views.py:433
+msgid "Check the form below."
+msgstr ""
+
+#: peerinst/views.py:674
+msgid ""
+"The rationale you chose does not exist anymore.  This should not happen.  "
+"Please start over with the question."
+msgstr ""
+
+#: peerinst/views.py:679
+msgid ""
+"The rationale you chose does not match your second answer choice.  This "
+"should not happen.  Please start over with the question."
+msgstr ""
